@@ -1,0 +1,24 @@
+schema_version: research-fabric-components.v1
+project:
+  identity: JerrySkywalker/ResearchFabric
+  role: public-project-front-door
+  runtime_component: false
+  component_count: 2
+components:
+  - id: RVT
+    name: Research Vault Template
+    repository: https://github.com/JerrySkywalker/research-vault-template
+    responsibility: cross-project semantic knowledge and Obsidian-compatible research vault
+    visibility: public
+  - id: RDLT
+    name: Research Design Lab Template
+    repository: https://github.com/JerrySkywalker/research-design-lab-template
+    responsibility: executable research project state, hypotheses, experiments, evidence, and decisions
+    visibility: public
+constraints:
+  portal_is_component: false
+  git_submodules: forbidden
+  copied_component_source: forbidden
+  runtime_dependency_on_portal: forbidden
+  automatic_template_synchronization: forbidden
+

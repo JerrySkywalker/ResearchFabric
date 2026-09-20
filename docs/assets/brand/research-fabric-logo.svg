@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 190" role="img" aria-labelledby="title desc">
+  <title id="title">ResearchFabric</title>
+  <desc id="desc">ResearchFabric wordmark beside an interwoven research-layer symbol.</desc>
+  <rect width="760" height="190" rx="24" fill="#f7fafb"/>
+  <g transform="translate(22 15) scale(.95)">
+    <path d="M20 42 L54 20 L140 74 L106 96 Z" fill="#2b9b8f"/>
+    <path d="M20 118 L54 140 L140 86 L106 64 Z" fill="#4b79b9"/>
+    <path d="M38 80 L80 53 L122 80 L80 107 Z" fill="#e9b44c"/>
+    <path d="M54 64 L80 48 L106 64 L80 80 Z" fill="#f4cf77"/>
+    <path d="M54 96 L80 80 L106 96 L80 112 Z" fill="#cb8c2e"/>
+  </g>
+  <text x="190" y="92" fill="#173844" font-family="Segoe UI, Arial, sans-serif" font-size="56" font-weight="700">Research<tspan fill="#2b8077">Fabric</tspan></text>
+  <text x="194" y="128" fill="#526d78" font-family="Segoe UI, Arial, sans-serif" font-size="19" letter-spacing="2.1">DURABLE HUMAN–AGENT SCIENTIFIC WORK</text>
+</svg>
+

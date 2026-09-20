@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 160" role="img" aria-labelledby="title desc">
+  <title id="title">ResearchFabric mark</title>
+  <desc id="desc">Three interwoven angular strands representing knowledge, evidence, and research continuity.</desc>
+  <defs>
+    <linearGradient id="knowledge" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#43b8a7"/><stop offset="1" stop-color="#19756d"/>
+    </linearGradient>
+    <linearGradient id="evidence" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#72a8df"/><stop offset="1" stop-color="#345a9c"/>
+    </linearGradient>
+  </defs>
+  <path d="M20 42 L54 20 L140 74 L106 96 Z" fill="url(#knowledge)"/>
+  <path d="M20 118 L54 140 L140 86 L106 64 Z" fill="url(#evidence)"/>
+  <path d="M38 80 L80 53 L122 80 L80 107 Z" fill="#e9b44c"/>
+  <path d="M54 64 L80 48 L106 64 L80 80 Z" fill="#f4cf77"/>
+  <path d="M54 96 L80 80 L106 96 L80 112 Z" fill="#cb8c2e"/>
+</svg>
+

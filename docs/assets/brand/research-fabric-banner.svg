@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ResearchFabric architecture banner</title>
+  <desc id="desc">Knowledge and evidence strands cross through projects, sources, agents, and human authority without merging their identities.</desc>
+  <rect width="1200" height="360" rx="28" fill="#102f3a"/>
+  <g fill="none" stroke-linecap="round" stroke-width="34">
+    <path d="M80 102 C280 102 310 254 520 254 S760 102 1120 102" stroke="#38a99d"/>
+    <path d="M80 258 C280 258 310 106 520 106 S760 258 1120 258" stroke="#5f8dcc"/>
+    <path d="M80 180 H1120" stroke="#e9b44c" stroke-width="16" stroke-dasharray="22 30"/>
+  </g>
+  <g fill="#f7fafb" font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <text x="150" y="76" font-size="22">SOURCES</text><text x="150" y="304" font-size="22">QUESTIONS</text>
+    <text x="520" y="52" font-size="22">KNOWLEDGE</text><text x="520" y="324" font-size="22">EVIDENCE</text>
+    <text x="890" y="76" font-size="22">PROJECTS</text><text x="890" y="304" font-size="22">AGENTS</text>
+    <text x="1040" y="188" font-size="22">HUMAN AUTHORITY</text>
+  </g>
+  <text x="600" y="190" fill="#ffffff" font-family="Segoe UI, Arial, sans-serif" font-size="38" font-weight="700" text-anchor="middle">DISTINCT STRANDS · DURABLE CONTINUITY</text>
+</svg>
+
