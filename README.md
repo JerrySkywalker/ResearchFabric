@@ -62,7 +62,7 @@ ResearchFabric is the public front door, not a third component. The components c
 
 ## Maturity
 
-ResearchFabric and the Template Pair are early-stage. The currently released stable pair baseline is `v0.1.0`; v0.2 work may exist as an unreleased candidate. This portal describes an evolving approach and does not claim production or scientific validation merely from repository state.
+ResearchFabric and the Template Pair are early-stage. The currently released stable pair baseline is `v0.2.0`. This portal describes an evolving approach and does not claim production or scientific validation merely from repository state.
 
 ## Documentation
 
@@ -76,4 +76,3 @@ ResearchFabric and the Template Pair are early-stage. The currently released sta
 ## Contributing and license
 
 Read [CONTRIBUTING.md](CONTRIBUTING.md) before proposing changes. ResearchFabric is licensed under the [MIT License](LICENSE); the [Simplified-Chinese translation](LICENSE.zh-CN.md) is unofficial and the English license controls.
-
