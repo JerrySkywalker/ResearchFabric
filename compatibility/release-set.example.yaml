@@ -1,16 +1,16 @@
 # Example of the currently released stable pair; composition is logical, not filesystem nesting.
 schema_version: research-fabric-release-set.v1-example
 status: released_stable_example
-pair_version: v0.2.0
+pair_version: v0.3.0
 components:
   - id: RVT
     repository: https://github.com/JerrySkywalker/research-vault-template
-    version: v0.2.0
-    commit: 69837fd75c779bf9aa7415f7d087ffbc0fd54394
+    version: v0.3.0
+    commit: 8d7468a8d17cfa9981ae6e84b1a7a037e51d1fd4
   - id: RDLT
     repository: https://github.com/JerrySkywalker/research-design-lab-template
-    version: v0.2.0
-    commit: 020fc7343e8bb7ec7182b3898c75ec7fc03ba447
+    version: v0.3.0
+    commit: 2fb41c0b70aff1c68dddcb28d46d495ace886900
 notes:
   portal_version_independent: true
-  v0_2_0_released: true
+  v0_3_0_released: true
