@@ -62,7 +62,7 @@ ResearchFabric is the public front door, not a third component. The components c
 
 ## Maturity
 
-ResearchFabric and the Template Pair are early-stage. The currently released stable pair baseline is `v0.3.0`. This portal describes an evolving approach and does not claim production or scientific validation merely from repository state.
+ResearchFabric and the Template Pair are early-stage. The currently released stable pair baseline is `v0.4.0`. This portal describes an evolving approach and does not claim production or scientific validation merely from repository state.
 
 ## Documentation
 
