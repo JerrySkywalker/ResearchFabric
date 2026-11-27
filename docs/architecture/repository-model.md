@@ -1,5 +1,7 @@
 # Repository Model
 
+A Lab can keep accepted Lean modules and draft proofs within its own repository. The Vault stores reviewed explanations and links to the exact source, declaration and revision. Reusable standalone libraries can be referenced as ordinary pinned dependencies.
+
 Each repository has one durable role.
 
 | Repository class | Owns | Does not own |

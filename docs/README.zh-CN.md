@@ -1,5 +1,7 @@
 # 文档
 
+[当前稳定兼容版本集](../compatibility/release-set.example.yaml) · [v1.0.0 历史兼容版本集](../compatibility/release-set.v1.0.0.yaml)
+
 ## 架构
 
 - [概览](architecture/overview.zh-CN.md)

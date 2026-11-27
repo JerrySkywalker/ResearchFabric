@@ -62,7 +62,7 @@ ResearchFabric is the public front door, not a third component. The components c
 
 ## Maturity
 
-Research Template Pair `v1.0.0` is the current stable repository contract, and ResearchFabric is its public front door. Stability covers the documented template structure and governance; it does not claim scientific validity, production suitability for a specialized project, or automatic upgrades.
+The stable Research Template Pair is `v1.1.0`. The [Vault release](https://github.com/JerrySkywalker/research-vault-template/releases/tag/v1.1.0) adds mathematical notes and exact proof references. The [Design Lab release](https://github.com/JerrySkywalker/research-design-lab-template/releases/tag/v1.1.0) adds an optional Lean/Mathlib profile with a synthetic proof, statement lock and axiom audit. Ordinary Lab and Vault work still uses the existing Git and Markdown workflow. Human review governs evidence and scientific decisions.
 
 ## Documentation
 
@@ -71,7 +71,8 @@ Research Template Pair `v1.0.0` is the current stable repository contract, and R
 - [Product topology](docs/architecture/product-topology.md)
 - [Repository model](docs/architecture/repository-model.md)
 - [Philosophy](docs/philosophy/README.md)
-- [Compatibility-set example](compatibility/release-set.example.yaml)
+- [Stable compatibility set](compatibility/release-set.example.yaml)
+- [v1.0.0 compatibility set](compatibility/release-set.v1.0.0.yaml)
 
 ## Contributing and license
 

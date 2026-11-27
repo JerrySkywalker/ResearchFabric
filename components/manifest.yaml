@@ -8,12 +8,12 @@ components:
   - id: RVT
     name: Research Vault Template
     repository: https://github.com/JerrySkywalker/research-vault-template
-    responsibility: cross-project semantic knowledge and Obsidian-compatible research vault
+    responsibility: cross-project semantic knowledge, including reviewed mathematical notes and exact formal references
     visibility: public
   - id: RDLT
     name: Research Design Lab Template
     repository: https://github.com/JerrySkywalker/research-design-lab-template
-    responsibility: executable research project state, hypotheses, experiments, evidence, and decisions
+    responsibility: executable research project state, evidence, decisions, and optional formal mathematics
     visibility: public
 constraints:
   portal_is_component: false

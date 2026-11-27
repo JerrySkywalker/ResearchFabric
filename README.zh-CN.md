@@ -62,7 +62,7 @@ ResearchFabric 是公共入口，不是第三个组件。两个组件通过显�
 
 ## 成熟度
 
-Research Template Pair `v1.0.0` 是当前稳定的仓库契约，ResearchFabric 是其公共入口。稳定性涵盖已记录的模板结构和治理规则；这并不意味着科学结论有效、特定项目已具备生产适用性，也不意味着模板会自动升级。
+Research Template Pair 当前稳定版本为 `v1.1.0`。[Vault 版本](https://github.com/JerrySkywalker/research-vault-template/releases/tag/v1.1.0)加入数学笔记和精确的证明引用。[Design Lab 版本](https://github.com/JerrySkywalker/research-design-lab-template/releases/tag/v1.1.0)提供可选的 Lean/Mathlib 配置，包含合成证明、命题锁定和公理审计。两套模板的普通工作流继续使用原有的 Git 和 Markdown。证据的准入与科学决策仍由人负责。
 
 ## 文档
 
@@ -71,7 +71,8 @@ Research Template Pair `v1.0.0` 是当前稳定的仓库契约，ResearchFabric 
 - [产品拓扑](docs/architecture/product-topology.zh-CN.md)
 - [仓库模型](docs/architecture/repository-model.zh-CN.md)
 - [理念](docs/philosophy/README.zh-CN.md)
-- [兼容版本集示例](compatibility/release-set.example.yaml)
+- [当前稳定兼容版本集](compatibility/release-set.example.yaml)
+- [v1.0.0 兼容版本集](compatibility/release-set.v1.0.0.yaml)
 
 ## 贡献与许可证
 
