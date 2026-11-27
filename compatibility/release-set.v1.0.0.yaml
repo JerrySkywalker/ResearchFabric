@@ -1,4 +1,4 @@
-# Example of the currently released stable pair; composition is logical, not filesystem nesting.
+# Historical stable compatibility set for Core Template Pair v1.0.0.
 schema_version: research-fabric-release-set.v1-example
 status: released_stable_example
 pair_version: v1.0.0
