@@ -1,5 +1,7 @@
 # Documentation
 
+[Stable compatibility set](../compatibility/release-set.example.yaml) · [v1.0.0 history](../compatibility/release-set.v1.0.0.yaml)
+
 ## Architecture
 
 - [Overview](architecture/overview.md)

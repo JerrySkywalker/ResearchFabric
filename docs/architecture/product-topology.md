@@ -1,5 +1,7 @@
 # Product Topology
 
+The two core templates support optional formal mathematics. A project can enable Lean/Mathlib within its Lab. Exact formal references can appear in its Vault. The project chooses and pins its toolchain.
+
 The product has two public components:
 
 ```text

@@ -1,5 +1,7 @@
 # Architecture Overview
 
+The v1.1.0 formal mathematics workflow is optional. A Lab keeps executable proofs and their run evidence. A Vault can publish reviewed semantic notes that cite an exact proof source.
+
 ResearchFabric separates durable research concerns so that each state has a clear authority.
 
 ```text
