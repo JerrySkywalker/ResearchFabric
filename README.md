@@ -50,6 +50,36 @@ Knowledge and evidence are connected, not interchangeable. The Vault captures re
 
 ResearchFabric is the public front door, not a third component. The components compose through explicit handoffs and compatible versions—not source copying, submodules, or a runtime parent.
 
+## Start with a repository
+
+| If you need to | Start here |
+| --- | --- |
+| Keep reviewed terminology, sources, and methods reusable across projects | [Create a Research Vault from the template](https://github.com/JerrySkywalker/research-vault-template/generate). Set the repository identity and visibility, then follow the [Vault specialization guide](https://github.com/JerrySkywalker/research-vault-template/blob/v1.1.0/docs/SPECIALIZATION.md). |
+| Maintain one project's questions, runs, evidence, and decisions | [Create a Research Design Lab from the template](https://github.com/JerrySkywalker/research-design-lab-template/generate). Follow the [Lab specialization guide](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/docs/SPECIALIZATION.md) and record the exact generation release. |
+| Review a template update for an existing repository | Start from the recorded reconciliation point. Compare that exact template release, the target release, and the current instance. Preserve project state and record the reviewed dispositions before advancing reconciliation. [Vault upgrades](https://github.com/JerrySkywalker/research-vault-template/blob/v1.1.0/docs/UPGRADE.md) · [Lab upgrades](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/docs/UPGRADE.md). |
+
+## How research moves through the Lab
+
+```mermaid
+flowchart LR
+  Q["Question and candidate hypothesis"] --> P["Admitted method and inputs"]
+  P --> R["Run and record outputs or failures"]
+  R --> H{"Human evidence review"}
+  H -->|Evidence admitted| I["Interpretation with limits"]
+  H -->|Revision needed| P
+  I --> D["Explicit Owner decision"]
+  I --> V["Separate review for reusable Vault knowledge"]
+```
+
+A run records exact inputs, method, tool versions, and what the result can support. Git preserves changes and review history. Obsidian can help navigate Vault notes, Zotero can manage bibliography and attachments, and large artifacts can stay in external storage with stable references and checksums. These tools are optional and retain their own authority over the data they manage.
+
+## Optional formal mathematics
+
+Use the [Design Lab formal mathematics guide](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/docs/FORMAL_MATHEMATICS.md) if a claim benefits from machine checking. A Mathematical Blueprint records the question, definitions, assumptions, and target. The optional Lean/Mathlib example pins its toolchain and dependencies, compares the theorem and dependent definitions to a reviewed lock, and audits transitive axioms. The check covers the formal statement under the recorded assumptions. Human review still governs its meaning and evidence admission, and the Owner decides what the project adopts.
+
+Start with the public [odd-sum Blueprint](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/examples/formal-mathematics/BLUEPRINT.md) and [verification method](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/examples/formal-mathematics/METHOD.md). A [Vault mathematical note](https://github.com/JerrySkywalker/research-vault-template/blob/v1.1.0/docs/MATHEMATICS.md) can independently link reusable meaning to an exact repository, revision, path, and declaration. Ordinary Vault and Lab use requires no Lean installation.
+
+
 ## Principles
 
 - Research state is not chat history.

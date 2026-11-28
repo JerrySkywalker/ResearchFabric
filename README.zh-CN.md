@@ -50,6 +50,36 @@ flowchart LR
 
 ResearchFabric 是公共入口，不是第三个组件。两个组件通过显式交接和兼容版本协作，而不是复制源码、使用子模块或依赖运行时父仓库。
 
+## 从仓库开始
+
+| 你需要做什么 | 从这里开始 |
+| --- | --- |
+| 跨项目复用经审查的术语、来源和方法 | [从模板创建 Research Vault](https://github.com/JerrySkywalker/research-vault-template/generate)。确定仓库身份和可见性，再按 [Vault 实例化指南](https://github.com/JerrySkywalker/research-vault-template/blob/v1.1.0/docs/SPECIALIZATION.md) 操作。 |
+| 维护一个项目的问题、运行、证据和决策 | [从模板创建 Research Design Lab](https://github.com/JerrySkywalker/research-design-lab-template/generate)。按 [Lab 实例化指南](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/docs/SPECIALIZATION.md) 记录确切的生成版本。 |
+| 审查既有实例的模板更新 | 从已记录的协调点出发，对比原模板发布版、目标发布版和当前实例。保留项目状态并记录每项审查处置，之后再推进协调点。[Vault 升级](https://github.com/JerrySkywalker/research-vault-template/blob/v1.1.0/docs/UPGRADE.md) · [Lab 升级](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/docs/UPGRADE.md)。 |
+
+## 研究如何在 Lab 中推进
+
+```mermaid
+flowchart LR
+  Q["问题和候选假设"] --> P["已准入的方法和输入"]
+  P --> R["运行并记录输出或失败"]
+  R --> H{"人工审查证据"}
+  H -->|证据已准入| I["附带适用限制的解释"]
+  H -->|需要修订| P
+  I --> D["Owner 明确决策"]
+  I --> V["单独审查可复用的 Vault 知识"]
+```
+
+运行记录包含确切输入、方法、工具版本和结果的适用范围。Git 保存变更和审查历史。Obsidian 可用于导航 Vault 笔记，Zotero 可管理参考文献和附件，大型工件可保存在外部存储，并使用稳定引用和校验值。这些都是可选工具，分别管理各自的数据。
+
+## 可选形式化数学
+
+当命题适合机器检查时，可使用 [Design Lab 形式化数学指南](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/docs/FORMAL_MATHEMATICS.md)。数学蓝图记录研究问题、定义、假设和证明目标。可选的 Lean/Mathlib 示例固定工具链和依赖，按经审查的规范核对定理与依赖定义，并审计传递公理。检查的范围是在已记录假设下的形式化陈述。陈述的含义和证据准入由人工审查，项目采用什么由 Owner 决定。
+
+可先阅读公开的[奇数求和蓝图](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/examples/formal-mathematics/BLUEPRINT.md)和[验证方法](https://github.com/JerrySkywalker/research-design-lab-template/blob/v1.1.0/examples/formal-mathematics/METHOD.md)。[Vault 数学笔记](https://github.com/JerrySkywalker/research-vault-template/blob/v1.1.0/docs/MATHEMATICS.md)可将可复用的含义关联到精确的仓库、提交、路径和声明。Vault 和 Lab 的日常使用无需安装 Lean。
+
+
 ## 原则
 
 - 研究状态不是聊天历史。

@@ -2,6 +2,8 @@
 
 [Stable compatibility set](../compatibility/release-set.example.yaml) · [v1.0.0 history](../compatibility/release-set.v1.0.0.yaml)
 
+[Start with a repository](../README.md#start-with-a-repository) · [Optional formal mathematics](../README.md#optional-formal-mathematics)
+
 ## Architecture
 
 - [Overview](architecture/overview.md)

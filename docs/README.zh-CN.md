@@ -2,6 +2,8 @@
 
 [当前稳定兼容版本集](../compatibility/release-set.example.yaml) · [v1.0.0 历史兼容版本集](../compatibility/release-set.v1.0.0.yaml)
 
+[从仓库开始](../README.zh-CN.md#从仓库开始) · [可选形式化数学](../README.zh-CN.md#可选形式化数学)
+
 ## 架构
 
 - [概览](architecture/overview.zh-CN.md)
